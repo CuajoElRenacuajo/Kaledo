@@ -6,6 +6,6 @@ public class Camera : MonoBehaviour
 {
     private void Update()
     {
-        Debug.Log(CompareTag("tag1"));
+        Debug.Log(tag == "tag1");
     }
 }

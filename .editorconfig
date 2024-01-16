@@ -1,0 +1,13 @@
+﻿[*.cs]
+
+# UNT0002: Inefficient tag comparison
+dotnet_diagnostic.UNT0002.severity = warning
+
+# Default severity for all analyzer diagnostics
+dotnet_analyzer_diagnostic.severity = warning
+
+# UNT0005: Time.deltaTime used with FixedUpdate
+dotnet_diagnostic.UNT0005.severity = warning
+
+# UNT0021: Prefer protected Unity Message.
+dotnet_diagnostic.UNT0021.severity = warning
